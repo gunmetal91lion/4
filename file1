@@ -1,0 +1,12 @@
+#include <iostream>
+#include <algorithm>
+
+int getLength(const int arr[]) {
+    return sizeof(arr) / sizeof(arr[0]);
+}
+
+int main() {
+    int numbers[] = {1, 2, 3, 4, 5};
+    std::cout << getLength(numbers) << std::endl;
+    return 0;
+}
